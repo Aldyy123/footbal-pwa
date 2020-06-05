@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <nav class="cyan" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo" id="logo-container">
+          <img src="/images/icons.png" alt="">
+        </a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile"></a>
+
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+
+    <div class="container details"></div>
+
+    <div class="fixed-action-btn layang">
+      <a class="btn btn-large" id="favorite">
+        <i class="material-icons large">favorite</i>
+        Add Favorite
+      </a>
+
+      <a class="btn btn-large" id="delete">
+        <i class="material-icons large">delete</i>
+        Hapus
+      </a>
+    </div>
+
+
+    <script src="/js/materialize/materialize.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "gcm_sender_id": "1048222861241",
+  "name": "Champion Football",
+  "short_name": "Football",
+  "theme_color": "#29b6f6",
+  "background_color": "#29b6f6",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "images/android/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android/android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
